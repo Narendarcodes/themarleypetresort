@@ -59,7 +59,7 @@ const HeroSection = () => {
               <div className="absolute -top-4 -left-4 w-full h-full bg-marley-orange/20 rounded-3xl"></div>
               <div className="relative bg-gray-200 rounded-3xl overflow-hidden aspect-[4/3]">
                 <img
-                  src="src\images\the-marley-s-pet-resort-and-training-centre-bollaram-medak-pet-training-centres-bygn8ihwi7.avif"
+                  src="https://images.jdmagicbox.com/comp/medak/y2/9999p8452.8452.190814142356.e3y2/catalogue/the-marley-s-pet-resort-and-training-centre-bollaram-medak-pet-training-centres-bygn8ihwi7.jpg"
                   alt="Happy dogs at Marley's Pet Resort"
                   className="w-full h-full object-cover"
                 />
