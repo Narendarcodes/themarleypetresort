@@ -85,7 +85,7 @@ const FacilitiesSection = () => {
             </div>
             <div className="h-full">
               <img
-                src="src\images\the-marley-s-pet-resort-and-training-centre-bollaram-medak-pet-training-centres-ljs7aui1o0.jpg"
+                src="https://images.jdmagicbox.com/comp/medak/y2/9999p8452.8452.190814142356.e3y2/catalogue/the-marley-s-pet-resort-and-training-centre-bollaram-medak-pet-training-centres-ljs7aui1o0.jpg"
                 alt="Dogs playing in open space"
                 className="w-full h-full object-cover"
               />
