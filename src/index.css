@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌿 Design Tokens */
+@layer base {
+  :root {
+    --background: 42 100% 97%; /* #FFF8F0 */
+    --foreground: 0 0% 10%; /* #1A1A1A */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 14 100% 60%; /* #FF6B35 */
+    --primary-foreground: 42 100% 97%;
+
+    --secondary: 60 5% 96%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 14 30% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 14 100% 60%;
+    --accent-foreground: 42 100% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 14 30% 86%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 14 100% 60%;
+
+    --radius: 1rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+/* 🧩 Components */
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-marley-black mb-8 relative inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-1 bg-marley-orange rounded-full -mb-2;
+  }
+
+  .paw-separator {
+    @apply flex items-center my-8 justify-center;
+  }
+
+  .paw-separator::before {
+    content: '';
+    @apply mr-4;
+  }
+
+  .paw-separator::after {
+    content: '';
+    @apply ml-4;
+  }
+}
